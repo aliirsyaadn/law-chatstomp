@@ -1,0 +1,19 @@
+{
+  "name": "wsmqstomp",
+  "version": "1.0.0",
+  "description": "Real Time Chat App Web Socket",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Ali Irsyaad Nursyaban",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.7.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
